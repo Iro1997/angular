@@ -1,0 +1,10 @@
+
+{
+"employees":
+[
+    {"id":1,"FirstName": "Iro", "LastName":"Kocani","Salary":1000,"Departament":"CSC"},
+    {"id":2,"FirstName": "Abby", "LastName":"Smith","Salary":2000,"Departament":"IT"},
+    {"id":3,"FirstName": "Bob", "LastName":"Reyes","Salary":4000,"Departament":"CSC"},
+    {"id":4,"FirstName": "Rey", "LastName":"Sanchez","Salary":5000,"Departament":"IT"}
+  ]
+}

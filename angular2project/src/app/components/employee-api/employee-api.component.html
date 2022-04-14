@@ -1,0 +1,21 @@
+<h2> Employee List</h2>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Salary</th>
+            <th>Departament</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.id}}</td>
+            <td>{{emp.FirstName}}</td>
+            <td>{{emp.LastName}}</td>
+            <td>{{emp.Salary}}</td>
+            <td>{{emp.Departament}}</td>
+        </tr>
+    </tbody>
+</table>
